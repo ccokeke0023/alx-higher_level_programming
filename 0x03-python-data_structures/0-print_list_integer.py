@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-import string
-print(string.ascii_uppercase)
+def print_list_integer(my_list=[]):
+    for i in my_list:
+        print("{:d}".format(i))
